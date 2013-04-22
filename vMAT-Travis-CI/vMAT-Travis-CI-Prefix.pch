@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'vMAT-Travis-CI' target in the 'vMAT-Travis-CI' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
