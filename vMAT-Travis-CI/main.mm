@@ -1,5 +1,5 @@
 //
-//  main.m
+//  main.mm
 //  vMAT-Travis-CI
 //
 //  Created by Kaelin Colclasure on 4/21/13.
@@ -19,4 +19,3 @@ int main(int argc, const char * argv[])
     }
     return 0;
 }
-

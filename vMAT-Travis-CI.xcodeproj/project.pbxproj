@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		054918E61724C59E0067D2E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 054918E51724C59E0067D2E4 /* Foundation.framework */; };
-		054918E91724C59E0067D2E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 054918E81724C59E0067D2E4 /* main.m */; };
+		054918E91724C59E0067D2E4 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 054918E81724C59E0067D2E4 /* main.mm */; };
 		054918ED1724C59E0067D2E4 /* vMAT_Travis_CI.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 054918EC1724C59E0067D2E4 /* vMAT_Travis_CI.1 */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +28,7 @@
 /* Begin PBXFileReference section */
 		054918E21724C59E0067D2E4 /* vMAT-Travis-CI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "vMAT-Travis-CI"; sourceTree = BUILT_PRODUCTS_DIR; };
 		054918E51724C59E0067D2E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		054918E81724C59E0067D2E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		054918E81724C59E0067D2E4 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		054918EB1724C59E0067D2E4 /* vMAT-Travis-CI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "vMAT-Travis-CI-Prefix.pch"; sourceTree = "<group>"; };
 		054918EC1724C59E0067D2E4 /* vMAT_Travis_CI.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = vMAT_Travis_CI.1; sourceTree = "<group>"; };
 		054918F31724C9610067D2E4 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
@@ -77,7 +77,7 @@
 		054918E71724C59E0067D2E4 /* vMAT-Travis-CI */ = {
 			isa = PBXGroup;
 			children = (
-				054918E81724C59E0067D2E4 /* main.m */,
+				054918E81724C59E0067D2E4 /* main.mm */,
 				054918EC1724C59E0067D2E4 /* vMAT_Travis_CI.1 */,
 				054918EA1724C59E0067D2E4 /* Supporting Files */,
 			);
@@ -143,7 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				054918E91724C59E0067D2E4 /* main.m in Sources */,
+				054918E91724C59E0067D2E4 /* main.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
