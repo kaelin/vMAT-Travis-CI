@@ -32,6 +32,7 @@
 		054918EB1724C59E0067D2E4 /* vMAT-Travis-CI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "vMAT-Travis-CI-Prefix.pch"; sourceTree = "<group>"; };
 		054918EC1724C59E0067D2E4 /* vMAT_Travis_CI.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = vMAT_Travis_CI.1; sourceTree = "<group>"; };
 		054918F31724C9610067D2E4 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		054918F41724CAD10067D2E4 /* PodFile */ = {isa = PBXFileReference; lastKnownFileType = text; path = PodFile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				054918F31724C9610067D2E4 /* .travis.yml */,
+				054918F41724CAD10067D2E4 /* PodFile */,
 				054918E71724C59E0067D2E4 /* vMAT-Travis-CI */,
 				054918E41724C59E0067D2E4 /* Frameworks */,
 				054918E31724C59E0067D2E4 /* Products */,
